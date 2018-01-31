@@ -18,7 +18,7 @@ gulp.task('js',function(){
         .bundle()
         .pipe(source('index.js'))
         .pipe(buffer())
-        .pipe(rename('Volantes.js'))
+        .pipe(rename('Documentos.js'))
         .pipe(gulp.dest('./../../public/js/'))
 })
 
